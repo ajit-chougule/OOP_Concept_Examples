@@ -1,4 +1,4 @@
-class Player {
+class Player1 {
   private health: number;
   private speed: number;
 
@@ -20,7 +20,7 @@ class Player {
   }
 }
 
-const mario = new Player();
+const mario = new Player1();
 mario.setHealth(-8);
 mario.setHealth(8);
 mario.setSpeed(6);
